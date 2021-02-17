@@ -28,6 +28,7 @@ public class Operations_App {
                 throw new RuntimeException("unknown operation");
         }
 
+        System.out.print("Result: ");
         System.out.println(result);
     }
 }
